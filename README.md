@@ -40,7 +40,7 @@ Both the *origin, destination* params accept either port codes or region slugs, 
 # Installation
 
 Docker setup which will start a
-PostgreSQL instance populated with the assignment data.
+PostgreSQL instance populated with the assignment data with running FastAPI app.
 
 Build the image:
 
@@ -59,7 +59,7 @@ docker-compose up -d
 Use `docker-compose exec` to run the test:
 
 ```bash
-docker-compose exec web pytest.
+docker-compose exec web pytest .
 ```
 
 # Contact
